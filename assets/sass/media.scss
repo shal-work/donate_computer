@@ -1,0 +1,416 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+    
+
+}
+
+
+@media (max-width: 414px) and (min-width: 327px) {
+
+    
+}
+
+
+// сайт ELEMENTOR4WP
+
+@media (max-width: 1200px) { 
+    .heading-title {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .widget-container {
+        width: 390px;
+        max-width: 390px;
+    }
+    
+    .widget-decoration {
+        margin: -300px 0px 0px 0px;
+        border-width: 100px 100px 100px 100px;
+    }
+
+    .svg-decorative-wave {
+        height: 40px;
+    }
+    .widget-decoration__spacer {
+        height: 500px;
+    }
+
+    .widget-container-small-2, .widget-container-small-1 {
+        width: 115px;
+        max-width: 115px;
+    }
+
+    .widget-decoration__spacer-small {
+        height: 100px;
+    }
+
+    .widget-decoration-small {
+        border-width: 30px 30px 30px 30px;
+    }
+
+    .heading-title {
+        font-size: 64px;
+    }
+
+    .section-header__content .bottom {
+        bottom: 360px;
+    }
+    .section-bottom .bottom {
+        bottom: 266px;
+    }
+
+    .heading-button, .heading-button-sunny {
+        font-size: 16px;
+        padding: 22px 40px 22px 40px;
+        // max-width: 167px;
+        // max-width: 100%;
+    }
+
+    .heading-link {
+        // max-width: calc(167px + 40px + 40px);
+        // max-width: 50%;
+        width: auto;
+    }
+
+    .container-description {
+        margin-top: -10%;
+    }
+    .container-description__title {
+        font-size: 35px;
+    }
+    .decoration-figure  {
+        font-size: 70px;
+    }
+    .svg-decoration-oblique-oval {
+        transform: scale(0.8);
+    }
+
+    .container-sponsor__icon svg {
+        width: 130px;
+        height: 130px;
+    }
+
+    .container-sponsor__title {
+        font-size: 35px;
+    }
+
+    .container-asset__row_title span {
+        font-size: 50px;
+    }
+
+    .container-asset__row_description {
+        font-size: 16px;
+    }
+
+    .container-asset__row2 {
+        margin-top: 10% !important;
+    }
+
+    .container-questions__title {
+        font-size: 35px; 
+    }
+
+    .container-questions__content {
+        flex-wrap: wrap;
+    }
+
+    .container-questions__content-items-1, .container-questions__content-items-2 {
+        margin-left: 1%;
+        width: 100%;
+    }
+    .container-questions__content-items-1 {
+        border-style: none;
+    }
+    .container-questions__content-items-2 {
+        padding: 0px 0px 0px 0px;
+    }
+    .container-questions__content-head_wrap {
+        font-size: 16px;
+    }
+
+    .container-questions__content-item .accordion-inner {
+        font-size: 14px;
+    }
+
+    .section-bottom__content-title h2 {
+        font-size: 35px;
+    }
+
+    .section-bottom .widget-container-small-1 {
+        top: 262px;
+    }
+    .section-bottom .widget-container-small-2 {
+        top: -120px;
+        margin: 0%;
+    }
+
+    .section-bottom__content {
+        max-height: 29vh;
+    }
+
+    .section-bottom .decorative-wave {
+        margin-top: -2px;
+    }
+}
+
+
+
+@media(max-width: 767px) {
+
+    .widget-container {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .widget-decoration {
+        border-width: 50px 50px 50px 50px;
+    }
+
+    .svg-decorative-wave {
+        height: 30px;
+    }
+
+    .widget-decoration__spacer {
+        height: 400px;
+        min-width: 200px;
+    }
+
+    .widget-decoration-small {
+        margin: -120px 0px 0px 0px;
+        border-width: 20px 20px 20px 20px;
+    }
+    .widget-decoration__spacer-small {
+        height: 150px;
+    }
+
+    .heading-title {
+        font-size: 38px;
+    }
+    .heading-description {
+        font-size: 14px;
+    }
+    .section-header__content .bottom {
+        bottom: 142px;
+    }
+    .heading-button, .heading-button-sunny {
+        padding: 18px 30px 18px 30px;
+    }
+    .section-header__content {
+        height: 590px;
+    }
+
+    .container-description {
+        margin-top: -15%;
+    }
+
+    .container-description__title {
+        font-size: 28px;
+    }
+
+    .container-description__mobile {
+        display: grid;
+        max-width: 40em;
+        grid-template-columns:  100%; /* 1 столбец */
+        margin: 0px auto;
+    }
+    .container-description__desktop {
+        display: none;
+    }
+    // .elementor-icon-box-description {
+    .container-description__item {
+        font-size: 14px;
+    }
+    .mobil {
+        padding: 0% 12% 0% 12%;
+    }
+    .container-description__item-title {
+        font-size: 18px;
+    }
+
+    .container-sponsor__title {
+        font-size: 28px;
+        margin-top: 5%;
+    }
+
+    .container-asset__row_title span {
+        font-size: 40px;
+    }
+
+    .container-asset__row_description {
+        font-size: 14px;
+    }
+
+    .container-asset {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .container-asset .wrap-flex-row-stretched {
+        flex-direction: column;
+    }
+
+    .container-asset__row1, .container-asset__row2 {
+        max-height: 801px;
+        padding: 0% 10% 0% 10%;
+    }
+
+    .container-asset__row_stretched {
+        position: relative;
+        top: -85px;
+    }
+
+    .container-asset__row_stretched-1 {
+        position: relative;
+        top: -210px;
+    }
+
+    .container-asset__row1 .wrap-flex-column-stretched {
+         align-items: center;
+    }
+    .container-asset__row2 .wrap-flex-column-stretched {
+         align-items: center;
+    }
+    .container-asset__row_pulse {
+        right: -83px;
+    }
+    .container-asset__row_box {
+        // top: -192px;
+        // left: 25px;
+    }
+
+    .container-questions__title {
+        font-size: 28px; 
+    }
+
+    .container-questions__content-item .accordion-inner {
+        padding: 0px 0px 0px 0px;
+    }
+    .section-bottom {
+        // margin-top: 35%;
+    }
+
+    .section-bottom__content-title {
+        margin-top: 20%;
+    }
+
+    .section-bottom .bottom {
+        bottom: 60px;
+    }
+
+    .section-bottom__content-title h2 {
+        font-size: 28px;
+    }
+
+
+}
+
+
+@media (max-width: 479px) {
+    
+    .section .wrap-flex-row-stretched {
+        flex-direction: column;
+    }
+    .heading-description {
+        margin: 10px auto;
+    }
+    .widget-decoration__spacer {
+        height: 370px;
+    }
+    .widget-video {
+        bottom: 12em ;
+    }
+    .heading-button {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .container-sponsor__title {
+        margin-top: 10%;
+    }
+
+
+    .container-asset__row_icon-computer svg {
+        max-width: 162px;
+    }
+
+
+    .container-asset__row_icon-table svg {
+        max-width: 215px;
+    }
+ 
+    .container-asset__row_box svg {
+        max-width: 22px;
+    }
+
+    .container-asset__row_pulse svg {
+        max-width: 268px;
+    }
+
+    .container-asset__row_icon-volunteer svg {
+        max-width: 135px;
+    }
+
+    .container-asset__row_training svg {
+        max-width: 177px;
+    }
+    .container-asset__row1, .container-asset__row2 {
+        padding: 0;
+    }
+
+    .container-asset__row_icon-sheet {
+        left: 0;
+    }
+
+
+    .container-asset__row_circle {
+        height: 155px;
+        width: 155px;
+        right: 44px;
+    }
+    .container-asset__row_icon-table {
+
+        top: -289px;
+        left: 0px;
+        fill: #F6A213;
+        margin-left: 0;
+    }
+
+    .container-asset__row_pulse svg {
+        max-width: 50px;
+    }
+    .container-asset__row_pulse {
+        top: -151px;
+        right: -50px;
+    }
+    .container-asset__row_box {
+        // top: -174px;
+        top: 32px;
+        left: 19px;
+    }
+
+    .section-bottom__content-title {
+        margin-top: 100px;
+    }
+    .section-bottom__content-title h2 {
+        font-size: 20px;
+    }
+
+
+    .section-footer__instagram, .section-footer__vk, .section-footer__telegram {
+        height: 20px;
+        width: 20px;
+    }
+    .section-footer__youtube {
+        width: 25px;
+        height: 25px;
+    }
+
+    .wrap-flex-row-stretched-item p {
+        font-size: 10px;
+    }
+    .wrap-float-left-width-4 {
+        width: 22%;
+    }
+}
